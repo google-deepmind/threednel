@@ -1,0 +1,40 @@
+name: threednel
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyter
+  - pip
+  - pytorch=2.0.1
+  - pytorch-cuda=11.8
+  - pytorch-cluster
+  - pytorch-scatter
+  - torchvision=0.15.2
+  - numpy
+  - scipy
+  - protobuf
+  - pandas
+  - tqdm
+  - scikit-learn
+  - tensorflow-cpu=2.11.0
+  - pip:
+    - glumpy
+    - imageio
+    - joblib
+    - jupytext
+    - moderngl
+    - opencv-python
+    - pdbpp
+    - pytorch-lightning
+    - taichi
+    - trimesh
+    - vispy
+    - matplotlib
+    - fancyflags
+    - numba
+    - tensorflow-probability==0.19.0

@@ -1,0 +1,13 @@
+.DS_Store
+*.pyc
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+__pycache__/
+*.egg-info/
+*.so
+knn.cpp
+venv/*
+build/*
+data/*
+*.csv
+*.png
