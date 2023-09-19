@@ -4,6 +4,8 @@
 
 This repo contains code for the paper [3D Neural Embedding Likelihood: Probabilistic Inverse Graphics for Robust 6D Pose Estimation](https://arxiv.org/abs/2302.03744) at the International Conference on Computer Vision (ICCV) 2023.
 
+[Project website](https://probcomp.github.io/nel/) | [Paper](https://arxiv.org/pdf/2302.03744.pdf)
+
 ## Citation
 
 If you find this code useful please consider citing
@@ -18,7 +20,7 @@ If you find this code useful please consider citing
 
 ## Installation
 
-The code is tested on Debian 11.0 with CUDA 11.8. For other CUDA versions please update the PyTorch dependencies in `environment.yml` accordingly. Reproducing the results requires an NVIDIA GPU with at least 16GB of memory. The code was developed and tested on a machine with a single A100.
+The code is tested on Debian 11.0 with CUDA 11.8. For other CUDA versions please update the PyTorch dependencies in `environment.yml` accordingly. The code was developed and tested on a machine with a single A100.
 
 ### Download data
 
@@ -73,7 +75,7 @@ python upgrade_checkpoint.py
 
 Then follow instructions to set up [pararender](https://github.com/nishadgothoskar/pararender).
 
-Alternative, you can reproduce the results using docker (see usage below).
+Alternatively, you can reproduce the results using docker (see usage below).
 
 ## Usage
 
